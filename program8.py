@@ -1,8 +1,8 @@
 
 import sys
-from Pyside2.QtCore import *
-from Pyside2.QtWidgets import *
-from Pyside2.QtGui import *
+from PySide2.QtCore import *
+from PySide2.QtWidgets import *
+from PySide2.QtGui import *
 
 class Simple_drawing_window(QWidget):
     def __init__(self):
