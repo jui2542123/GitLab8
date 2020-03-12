@@ -1,3 +1,23 @@
+import turtle
+
+
+
+
+class Disk(name,x,y,height,width,color):
+    def __init__():
+    def showdisk():
+    def newpos(x,y):
+    def cleardisk():
+class Pole(name,stack,top,x,y,thick,length,color):
+    def __init__():
+
+    def showpole():
+    def pushdisk(disk):
+    
+    def popdisk():
+
+
+
 class Hanoi(object):
     def __init__(self,n=3, start = "A",workspace="B",destination="C"):
         self.startp = Pole(start,0,0)
