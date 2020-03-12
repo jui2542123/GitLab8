@@ -1,3 +1,4 @@
+
 import sys
 from Pyside2.QtCore import *
 from Pyside2.QtWidgets import *
@@ -22,6 +23,115 @@ class Simple_drawing_window(QWidget):
         p.setPen(QColor(255, 127, 0))
         p.setBrush(QColor(255, 127, 0))
         p.drawPie(50, 150, 100, 100, 0, 180*16)
-        
-        sghjk,.
-        asfcdvbsfdvgffghjkl;./
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def main():
+    app = QApplication(sys.argv)
+
+    w = Simple_drawing_window()
+    w.show()
+
+    return app.exec_()
+
+if __name__ == "__main__":
+    sys.exit(main())
+
