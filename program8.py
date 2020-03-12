@@ -23,4 +23,4 @@ class Simple_drawing_window(QWidget):
         p.setBrush(QColor(255, 127, 0))
         p.drawPie(50, 150, 100, 100, 0, 180*16)
         
-        
+        sghjk,.
