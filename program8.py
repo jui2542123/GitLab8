@@ -24,4 +24,4 @@ class Simple_drawing_window(QWidget):
         p.drawPie(50, 150, 100, 100, 0, 180*16)
         
         sghjk,.
-        asfcdvbsfdvgf
+        asfcdvbsfdvgffghjkl;./
