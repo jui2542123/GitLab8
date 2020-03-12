@@ -4,7 +4,7 @@ from PySide2.QtCore import *
 from PySide2.QtWidgets import *
 from PySide2.QtGui import *
 
-class Simple_drawing_window(QWidget):
+class Simple_drawing_window1(QWidget):
     def __init__(self):
         QWidget.__init__(self, None)
         self.setWindowTitle("Simple Drawing")
@@ -88,6 +88,12 @@ def main():
 
     w = Simple_drawing_window3()
     w.show()
+
+    x = Simple_drawing_window2()
+    x.show()
+
+    y = Simple_drawing_window1()
+    y.show()
 
     return app.exec_()
 
